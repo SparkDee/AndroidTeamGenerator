@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ActivityTeamDetailsPlayer"
+    android:background="@drawable/blank_land"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_small"
+            android:id="@+id/logout_icon"
+            android:background="@null"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toolbar_footy"
+            android:layout_alignParentRight="true"
+            android:id="@+id/home_icon"
+            android:background="@null"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/detail_layout"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_name"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_id"
+            android:text="Team ID"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="VIEW AVAILABLE"
+            android:id="@+id/btnAvailableMatchesPlayer"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_height="60dp"
+            android:background="#000"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="VIEW CONFIRMED"
+            android:id="@+id/btnConfirmedMatchesPlayer"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="right"
+            android:background="#000"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

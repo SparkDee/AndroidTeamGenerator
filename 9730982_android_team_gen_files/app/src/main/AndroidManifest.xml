@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.appfinal">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppFinal"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PlayerViewAllMatches"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AdminViewConfirmedPlayers" />
+        <activity android:name=".PlayerViewConfirmedMatches" />
+        <activity android:name=".ActivityPlayerConfirmedMatchDetails" />
+        <activity android:name=".ActivityPlayerMatchDetails" />
+        <activity android:name=".ActivityMatchDetails" />
+        <activity android:name=".ActivityTeamDetailsPlayer" />
+        <activity android:name=".PlayerViewTeams" />
+        <activity android:name=".PlayerJoinTeam" />
+        <activity android:name=".PlayerTeamOptions" />
+        <activity android:name=".ActivityTeamDetails" />
+        <activity android:name=".AdminViewTeam" />
+        <activity android:name=".AdminUpdateTeam" />
+        <activity android:name=".AdminDeleteTeam" />
+        <activity android:name=".AdminDeleteDetails" />
+        <activity android:name=".AdminUpdateDetails" />
+        <activity android:name=".AdminCurrentDetails" />
+        <activity android:name=".PlayerUpdateDetails" />
+        <activity android:name=".PlayerDeleteDetails" />
+        <activity android:name=".PlayerCurrentDetails" />
+        <activity android:name=".PlayerMatches" />
+        <activity android:name=".PlayerDetails" />
+        <activity android:name=".AdminCreateTeam" />
+        <activity android:name=".AdminUpdateMatch" />
+        <activity android:name=".AdminViewMatches" />
+        <activity android:name=".AdminDeleteMatch" />
+        <activity android:name=".AdminCreateMatch" />
+        <activity android:name=".AdminTeamOptions" />
+        <activity android:name=".AdminDetails" />
+        <activity android:name=".AdminMatchOptions" />
+        <activity android:name=".PlayerHome" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".PlayerCreate" />
+        <activity android:name=".AdminCreate" />
+        <activity android:name=".PlayerLogin" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".PlayerLand" />
+        <activity android:name=".AdminLand" />
+        <activity android:name=".StartPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

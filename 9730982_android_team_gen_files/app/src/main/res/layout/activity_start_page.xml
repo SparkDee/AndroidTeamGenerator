@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".StartPage"
+    android:orientation="vertical"
+    android:background="@drawable/start_page_blank"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/toolbarLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_small"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="497dp"
+        app:srcCompat="@drawable/logo"
+        />
+
+
+    <ImageButton
+        android:id="@+id/choose_basketball_button"
+        android:alpha=".70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+            android:gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:backgroundTint="#000"
+        android:paddingBottom="95dp"
+        app:srcCompat="@drawable/basketball_icon" />
+
+
+    <ImageButton
+        android:id="@+id/choose_pool_button"
+        android:alpha=".80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="32dp"
+        android:background="@null"
+        android:backgroundTint="#000"
+        android:gravity="center|bottom"
+        android:paddingBottom="70dp"
+        android:paddingLeft="135dp"
+        app:srcCompat="@drawable/pool_icon" />
+
+    <ImageButton
+        android:id="@+id/choose_football_button"
+        android:alpha=".70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="37dp"
+        android:background="@null"
+        android:backgroundTint="#000"
+        android:paddingBottom="70dp"
+        android:paddingLeft="270dp"
+        app:srcCompat="@drawable/football_icon" />
+
+
+</RelativeLayout>
